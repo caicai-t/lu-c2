@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.yexinw{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.yexin{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo-c {
+    float: left;
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+}
+.nav{
+    position: relative;
+    height: 80px;
+    width: 1200px;
+    background-color: transparent;
+    z-index: 2;
+}
+.nav-a ul li{
+    margin-left: 26px;
+    margin-top: 32px;
+    float: right;
+    font-size: 16px;
+}
+.nav-a ul li a{
+    color: gray;
+}
+.nav-a li .mro.active{
+    display: block;
+}
+.nav .nav-a  .line{
+    position: absolute;
+    display: none;
+    width: 63px;
+    height: 2px;
+    background-color: red;
+    bottom: 15px;
+}
+.nav-a li .line.active{
+    display: block;
+}
+.nav .nav-a  .mro{
+    position: absolute;
+    display: none;
+    width: 31.5px;
+    height: 2px;
+    background-color: red;
+    bottom: 15px;
+}
+.nav-a li:hover a{
+    color: red;
+}
+.nav-a li:hover .line{
+    display: block;
+}
+.wm-b{
+    position: relative;
+    width: 100%;
+    height: 1200px;
+    /* background-color: red; */
+    background: url(../img/wmb.png) no-repeat center;
+    margin: 0 auto;
+}
+.wm-b .wm-a{
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.wm-bt{
+    position: relative;
+    width: 1200px;
+    height: 200px;
+    float: left;
+
+}
+.wm-wz{
+    margin-left: 220px;
+    width: 980px;
+    height: 180px;
+    float: left;
+}
+
+
+.wm-bt .title span{
+    position: absolute;
+    display: block;
+    width: 137px;
+    height: 2px;
+    background-color:red;
+}
+.wm-bt .title .spana{
+    top: 120px;
+    left: 345px;
+}
+.wm-bt .title .spanb{
+    top: 120px;
+    right: 380px;
+}
+/* title旁边p */
+.wm-bt .title p{
+    font-size: 24px;
+    color:red;
+    position: absolute;
+    top: 105px;
+    text-align: center;
+    right: 560px
+}
+.wm-bt .title .title-a{
+    font-size: 14px;
+    color:gray;
+    position: absolute;
+    top: 140px;
+    text-align: center;
+    right: 590px
+}
+
+.wm-a .wm-wz p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 2em;
+}
+
+.wm-wzb{
+    width: 1200px;
+   float: left;
+    height: 200px;
+}
+.wm-wzc{
+    margin-left: 207px;
+    width: 57px;
+    height: 200px;
+    float: left;
+}
+.wm-wzc p{
+    text-align: center;
+}
+.wm-wzc .wm-pa{
+    margin-bottom: 10px;
+    margin-top: 60px;
+    font-size: 60px;
+    color: #fff;
+}
+.wm-wzc .wm-pb{
+    font-size: 16px;
+    color: #fffefe;
+}
+.wm-wzb span{
+    margin-left:152px ;
+    margin-top: 70px;
+    float: left;
+    display: block;
+    width: 2px;
+    height: 90px;
+    background-color:#505051;
+}
+.wm-wzc.at{
+    margin-left: 100px;
+    width: 200px;
+    height: 247px;
+    float: left;
+}
+.wm-wzb .wm-wzdsp.ct{
+    margin-left:100px ;
+    margin-top: 70px;
+    float: left;
+    display: block;
+    width: 2px;
+    height: 90px;
+    background-color:#505051;
+}
+.wm-e{
+    width: 800px;
+    height: 340px;
+    /* background-color: red; */
+    float: left;
+    margin-left: 205px;
+    border: 2px solid red;
+}
+.wm-e .wm-et{
+    float: left;
+    width: 67px;
+    height: 258px;
+    margin-top: 82px;
+}
+.wm-logo{
+    text-align: center;
+    position: absolute;
+    top: 600px;
+    left:830px;
+    float: left;
+    width: 245px;
+    height: 58px;
+    background-color: black;
+}
+.wm-ewz{
+    margin-top: 65px;
+    float: left;
+    width: 730px;
+    height: 240px;
+}
+
+.wm-e p{
+    margin-top: 5px;
+    margin-left: 40px;
+    line-height: 2em;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+
+
+/* 地址区域 */
+.dz{
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.dz .dzwz{
+    width: 1200px;
+    height: 400px;
+    background-color:black;
+    margin: 0 auto;
+}
+.dz .dza{
+    width: 180px;
+    height: 74px;
+    float: left;
+}
+.dz .dzwz .dzaa{
+    margin-top: 130px;
+    line-height: 3em;
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+}
+.dz .dzwz img{
+    margin-right: 10px;
+}
+.dz .dzwz .dzab p{
+    font-size: 14px;
+    color: gray;
+}
+.dz .dzwz .dzab{
+    margin-top: 130px;
+    width: 240px;
+    height: 90px;
+    float: left;
+    margin-left: 300px;
+}
+.dz .dzwz .dzabc{
+    margin-top: 130px;
+    float: right;
+    width: 182px;
+    height: 93px;
+}
+.dz .dzwz .dzabc p{
+    font-size: 14px;
+    color: gray;
+}
+
+
+/* 尾部区域 */
+.wbbq{
+    margin: 0 auto;
+    height: 100%px;
+    width: 100%px;
+    background-color: #343434;
+}
+.wbbq .wpbd{
+    margin-top: 300px;
+    width: 1200px;
+    height: 80px;
+    background-color: #343434;
+    margin: 0 auto;
+}
+.wbbq .wpbd p{
+    line-height: 80px;
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+}

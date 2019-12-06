@@ -1,0 +1,626 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    float: left;
+    margin: 18px 0px;
+    margin-left: 51px;
+}
+/* 导航栏样式图 */
+.nav{
+    float: left;
+    width: 100%;
+    height: 80px;
+    background: url(../img/navtop.png) no-repeat center;
+    background-size: cover;
+}
+/* 背景图 */
+.navbj{
+    width: 100%;
+    height: 800px;
+    background: url( ../img/navxia.png ) no-repeat center;
+    background-size: cover;
+}
+/* 导航栏区域 */
+.nav-c{
+    position: absolute;
+    float: right;
+    width: 100%;
+    height: 80px;
+    height: 80px;
+    background-size: cover;
+    z-index: 4;
+    background: url(../img/navtop.png) no-repeat center;
+}
+.nav .nav-c span{
+    display: none;    
+}
+.nav .nav-c li:hover span{
+    display: block;
+}
+.nav-c .line{
+    position: absolute;
+    display: block;
+    width: 65px;
+    height: 2px;
+    top:55px;
+    background-color: red;
+}
+.nav-c .linea {
+    position: absolute;
+    display: block;
+    width: 32.5px;
+    height: 2px;
+    top:55px;
+    background-color: red;
+}
+.nav-c .linea.active{
+    position: absolute;
+    display: block;
+    width: 32.5px;
+    height: 2px;
+    top:55px;
+    background-color: red;
+}
+.nav-c ul li a{
+    display: block;
+    float: right;
+    font-size: 16px;
+    color: #ffff;
+    margin: 20px 30px;
+}
+.nav-c li:hover a{
+    color: red;
+}
+.navbj .bj{
+    position: relative;
+    width: 1200px;
+    height: 1100px;
+    z-index: 3;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+.navbj .bj .Arrowleft{
+    position: absolute;
+    left: -180px;
+    top: 400px;
+}
+.navbj .bj .Arrowright{
+    position: absolute;
+    right: -180px;
+    top: 400px;
+}
+/* 两个点 */
+.bj .dianr{
+    display: block;
+    position: absolute;
+    top: 60%;
+    right: 47%;
+    width: 12px;
+    border-radius: 50%;
+    height: 12px;
+    border: 3px solid #999999;
+}
+.bj .dianr.active{
+    border: 3px solid red;
+}
+.navbj .bj .dianr:hover {
+    border: 3px solid red;
+}
+.navbj .bj .dianl:hover {
+    border: 3px solid red;
+}
+
+.bj .dian .dianl{
+    left: 47%;
+    display: block;
+    position: absolute;
+    top: 60%;
+    width: 12px;
+    border-radius: 50%;
+    height: 12px;
+    border: 3px solid #999999;
+}
+
+.zho{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    background-color:black;
+    bottom: 15px;
+}
+.navbj .zho .lineb{
+    position: absolute;
+    display: block;
+    width: 130px;
+    height: 4px;
+    top:150px;
+    left:33%;
+    background-color: red;
+    z-index: 1;
+}
+.navbj .zho{
+    font-size: 24px;
+    color: red;
+    text-align: center;
+}
+.navbj .zho .linec{
+    position: absolute;
+    display: block;
+    width: 130px;
+    height: 4px;
+    top:150px;
+    right:33%;
+    background-color: red;
+    z-index: 1;
+}
+.navbj .zho .zhowz{
+    margin-top: 135px;
+}
+.navbj .zho .zhowz p{
+    line-height: 2em;
+    font-size: 16px;
+    color: #8c8c8c;
+}
+.zpzs{
+    width: 100%;
+    margin-top: 123px;
+    height: 685px;
+    background-color: black;
+}
+.zozs li img{
+    width: 23.5%;
+}
+.zpzs li{
+   float: left;
+    margin-right: 2%;
+    margin-bottom: 25px;
+}
+.zpzs li.mr{
+    margin-right:0;
+}
+.piog{
+    height: 100px;
+    width: 100%;
+    background-color:red;
+}
+.piog p{
+    font-size: 18px;
+    line-height: 100px;
+    text-align: center;
+    color: #ffff;
+}
+.y{
+    position: absolute;
+    width: 100%;
+    height: 1200px;
+    background-color: #000000;
+    z-index: 1;
+}
+.yh{
+    /* position: relative; */
+    height: 1000px;
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+.y .yhbt{
+    height: 122px;
+    width: 1200px;
+    background-color: #000000;
+}
+.linbd{
+    position: absolute;
+    display: block;
+    width: 130px;
+    height: 4px;
+    top:150px;
+    left:33%;
+    background-color: red;
+    z-index: 1;
+}
+.linbe{
+    position: absolute;
+    display: block;
+    width: 130px;
+    height: 4px;
+    top:150px;
+    right:33%;
+    background-color: red;
+    z-index: 1;
+}
+.y .yhbt .yhwz{
+    
+    margin-top: 125px;
+    font-size: 24px;
+    color: red;
+    text-align: center;
+    line-height: 2em;
+}
+.y .yhbt .yhwz-c{
+    font-size: 16px;
+    color: #8c8c8c;
+    text-align: center;
+}
+.y .yh .yhtpx{
+    position: absolute;
+    width: 1200px;
+    height: 952px;
+    background-color:black;
+    z-index: 1;
+}
+.yhtpx .yhtp{
+    position: absolute;
+    left: 0;
+    bottom: 245px;
+    width: 510px;
+    height: 302px;
+    background: url(../img/yhtb.png) no-repeat center;
+    background-size: cover;
+    z-index: 1;
+}
+.yhtpx .yhtpa{
+    position: absolute;
+    width: 510px;
+    height: 302px;
+    background: url(../img/yhta.png) no-repeat center;
+    top: 10px;
+    left: 10px;
+    background-size: cover;
+    z-index: 1;
+}
+.yhtpx .yhtpb{
+    position: absolute;
+    width: 510px;
+    height: 302px;
+    right:0px;
+    top: 183px;
+    background: url(../img/yhtc.png) no-repeat center;
+    background-size: cover;
+    z-index: 1;
+}
+.yhtpx .yhtpc{
+    position: absolute;
+    right: 0px;
+    bottom: 102px;
+    width: 510px;
+    height: 302px;
+    background: url(../img/yhtd.png) no-repeat center;
+    background-size: cover;
+    z-index: 1;
+}
+.yh .yhtpx .yhtpjg{
+    position: absolute;
+    bottom: 0;
+    width: 510px;
+    height: 50px;
+    background-color: #212121;
+    z-index: 1;
+}
+.yh .yhtpx p{
+    font-size: 18px;
+    line-height:50px;
+    text-align: center;
+    color: #ffff;
+}
+.yh .yhtpx span{
+    font-size: 14px;
+    line-height:50px;
+    color: #ffff;
+    float: left;
+    margin-left: 20px;
+}
+.yhtpc:hover .yhtpjg{
+    background-color: red;
+}
+.yhtpc:hover{
+    border: 3px solid red;
+}
+.yhtp:hover .yhtpjg{
+    background-color: red;
+}
+.yhtp:hover{
+    border: 3px solid red;
+}
+.yhtpb:hover .yhtpjg{
+    background-color: red;
+}
+.yhtpb:hover{
+    border: 3px solid red;
+}.yhtpa:hover .yhtpjg{
+    background-color: red;
+}
+.yhtpa:hover{
+    border: 3px solid red;
+}
+.gy{
+    position: relative;
+    width: 100%;
+    height: 1750px;
+    background-color: red;
+    z-index: 0;
+    /* background: url(../img/gybj.png) no-repeat center; */
+}
+.gy .gybj{
+    float: left;
+    width: 100%;
+    height: 560px;
+    margin-top: 1190px;
+    background: url(../img/about.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.gy .gybj span{
+    position: absolute;
+    display: block;
+    width: 130px;
+    height: 4px;
+    top:1286px;
+    right:33%;
+    background-color: red;
+    z-index: 1;
+}
+.gy .gybj .lineg{
+    position: absolute;
+    display: block;
+    width: 130px;
+    height: 4px;
+    top:1286px;
+    left: 33%;
+    background-color: red;
+    z-index: 1;
+}
+.gybj .gyb{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+.gybj .gya{
+    text-align: center;
+    font-size: 24px;
+    color: red;
+    margin-top: 80px;
+}
+.gybj .gyc{
+    text-align: center;
+    margin-top: 30px;
+}
+.gy .sud{
+    width: 1200px;
+    height: 130px;
+    margin: 0 auto;
+    margin-top: 40px;
+    /* background-color: red; */
+}
+.gy .sudp{
+    float: left;
+    width: 204px;
+    height: 115px;
+    margin-right: 100px;
+}
+.gy .suda{
+    text-align: center;
+}
+.gy .sudb{
+    font-size: 16px;
+    color: #ffff;
+    margin-top: 18px;
+}
+.gy .sud .sudpmr{
+    float: left;
+    width: 204px;
+    height: 115px;
+    margin-right: 0;
+}
+.ypp{ 
+    width: 100%;
+    height: 130px;
+    background-color: black;
+
+}
+.yp{
+    position: relative;
+    width: 1200px;
+    height: 130px;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+.yp span{
+    position: absolute;
+    width: 130px;
+    height: 4px;
+    background-color: red;
+}
+.yp .ypsa{
+    top: 60px;
+    left: 280px;
+}
+.yp .ypsb{
+    top: 60px;
+    right:280px;
+}
+.yp p{
+    text-align: center;
+}
+.yp .ypwza{
+    color: red;
+    font-size: 24px;
+    line-height: 5em;
+}
+.yp .ypwzb{
+    display: block;
+    color: #fff;
+    margin-top: -30px;
+}
+.ypww{
+    width: 100%;
+    height: 420px;
+    background-color: black;
+    
+}
+.ypww .ypkz{
+    width: 970px;
+    height: 315px;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+}
+.ypll p{
+    color: #fff;
+    text-align: center;
+}
+.ypll .ypl{
+    margin-top: 10px;
+    line-height: 2em;
+    font-size: 16px;
+}
+.ypll .ypm{
+    line-height: 4em;
+    font-size: 14px;
+    color: grey;
+}
+.ypll{
+    position: relative;
+    display: block;
+    margin-top: 150px;
+    width: 170px;
+    height: 129px;
+    background-color:black;
+    border: 1px solid gray;
+    float: right;
+    margin-right: 18px;
+}
+.ypww .ypll .ypssa{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: -35px;
+    right: 70px;
+}
+.ypww .ypll .ypssa{
+    border: 18px solid transparent;
+    border-bottom-color: grey;
+}
+.ypww .ypll .ypssb{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: -34px;
+    right: 70px;
+}
+.ypww .ypll .ypssb{
+    border: 18px solid transparent;
+    border-bottom-color: black;
+}
+.ypww .ypll .ypdd{
+    border-radius: 50%;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    top: 76px;
+    right: 20px;
+    display: none;
+}
+.ypww .ypll .yptpp{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.ypww .ypppw{
+    position: absolute;
+    width: 55px;
+    height: 75px;
+    top: -130px;
+    right: 60px;
+    background: url(../img/liua.png) no-repeat center;
+}
+.ypll .ypppwjs{
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 23px;
+    color: red;
+    font-weight: bolder;
+}
+.ypww .ypll:hover .ypdd{
+    display: block;
+}
+.ypww .ypll:hover .ypppw{
+    background: url(../img/lccb.png) no-repeat center;
+}
+.ypww .ypll:hover .ypppwjs{
+    color: #fff;
+}
+.ypww .ypll:hover {
+    border-color: red;
+}
+.ypww .ypll:hover .ypssa{
+    border-bottom-color: red;
+}
+.dz{
+    width: 100%;
+    height: 220px;
+    background-color: #191919;
+}
+.dz .dzwz{
+    width: 1200px;
+    height: 220px;
+    background-color:#191919;
+    margin: 0 auto;
+}
+.dz .dza{
+    width: 180px;
+    height: 74px;
+    float: left;
+}
+.dz .dzwz .dzaa{
+    line-height: 3em;
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+}
+.dz .dzwz img{
+    margin-right: 10px;
+}
+.dz .dzwz .dzab p{
+    font-size: 14px;
+    color: gray;
+}
+.dz .dzwz .dzab{
+    width: 240px;
+    height: 90px;
+    float: left;
+    margin-left: 300px;
+}
+.dz .dzwz .dzabc{
+    float: right;
+    width: 182px;
+    height: 93px;
+}
+.dz .dzwz .dzabc p{
+    font-size: 14px;
+    color: gray;
+}
+.wbbq{
+    height: 80px;
+    width: 100%;
+    background-color: #343434;
+}
+.wbbq .wpbd{
+    width: 1200px;
+    height: 80px;
+    background-color: #343434;
+    margin: 0 auto;
+}
+.wbbq .wpbd p{
+    line-height: 80px;
+    text-align: center;
+}

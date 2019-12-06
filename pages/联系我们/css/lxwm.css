@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.yexinw{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.yexin{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo-c {
+    float: left;
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+}
+.nav{
+    position: relative;
+    height: 80px;
+    width: 1200px;
+    background-color: transparent;
+    z-index: 2;
+}
+.nav-a ul li{
+    margin-left: 26px;
+    margin-top: 32px;
+    float: right;
+    font-size: 16px;
+}
+.nav-a ul li a{
+    color: gray;
+}
+.nav-a li .mro.active{
+    display: block;
+}
+.nav .nav-a  .line{
+    position: absolute;
+    display: none;
+    width: 63px;
+    height: 2px;
+    background-color: red;
+    bottom: 15px;
+}
+.nav-a li .line.active{
+    display: block;
+}
+.nav .nav-a  .mro{
+    position: absolute;
+    display: none;
+    width: 31.5px;
+    height: 2px;
+    background-color: red;
+    bottom: 15px;
+}
+.nav-a li:hover a{
+    color: red;
+}
+.nav-a li:hover .line{
+    display: block;
+}
+/* 内容开始 */
+.lx-a{
+    width: 100%;
+    height: 829px;
+    background-color: #161616;
+}
+.lx-b{
+    position: relative;
+    width: 1200px;
+    height: 829px;
+    margin: 0 auto;
+}
+.title{
+    width: 1200px;
+    height: 191px;
+    background-color: transparent;
+}
+.lx-b .title span{
+    position: absolute;
+    display: block;
+    width: 137px;
+    height: 2px;
+    background-color:red;
+}
+.lx-b .title .spana{
+    top: 120px;
+    left: 345px;
+}
+.lx-b .title .spanb{
+    top: 120px;
+    right: 370px;
+}
+/* title旁边p */
+.lx-b .title p{
+    font-size: 24px;
+    color:red;
+    position: absolute;
+    top: 105px;
+    text-align: center;
+    right: 540px
+}
+.lx-b .title .title-a{
+    font-size: 14px;
+    color:gray;
+    position: absolute;
+    top: 140px;
+    text-align: center;
+    right: 570px
+}
+
+
+.lx-a .lx-c{
+    margin-left: 100px;
+    float: left;
+    width: 470px;
+    height: 638px;
+}
+.lx-a .lx-c p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 2em;
+}
+.lx-a .lx-c span{
+    color: red;
+}
+
+
+.lx-a .lx-d{ 
+    float: left;
+    width: 535px;
+    height: 638px;
+}
+.lx-a .lx-d p{
+    color: #fff;
+}
+.lx-a .lx-d .lx-d-a{
+    text-indent: 10px;
+    outline: none;
+    font-size: 30px;
+    margin-bottom: 17px;
+    width: 530px;
+    height: 50px;
+    background-color: #1f1f1f;
+    border: 1px solid #363636;
+    border-radius: 10px;
+    color: #fff;
+}
+.lx-a .lx-d .lx-d-a.mro{
+    height: 180px;
+}
+.lx-d .lx-d-b{
+    outline: none;
+    margin-top:50px;
+    margin-left: 180px;
+    width: 150px;
+    height: 50px;
+    background-color: #dd1717;
+    border-radius: 25px;
+    color: #fff;
+    border: 1px solid #363636;
+}
+
+
+
+
+
+
+
+
+/* 地址区域 */
+.dz{
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.dz .dzwz{
+    width: 1200px;
+    height: 400px;
+    background-color:black;
+    margin: 0 auto;
+}
+.dz .dza{
+    width: 180px;
+    height: 74px;
+    float: left;
+}
+.dz .dzwz .dzaa{
+    margin-top: 130px;
+    line-height: 3em;
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+}
+.dz .dzwz img{
+    margin-right: 10px;
+}
+.dz .dzwz .dzab p{
+    font-size: 14px;
+    color: gray;
+}
+.dz .dzwz .dzab{
+    margin-top: 130px;
+    width: 240px;
+    height: 90px;
+    float: left;
+    margin-left: 300px;
+}
+.dz .dzwz .dzabc{
+    margin-top: 130px;
+    float: right;
+    width: 182px;
+    height: 93px;
+}
+.dz .dzwz .dzabc p{
+    font-size: 14px;
+    color: gray;
+}
+
+
+/* 尾部区域 */
+.wbbq{
+    margin: 0 auto;
+    height: 100%px;
+    width: 100%px;
+    background-color: #343434;
+}
+.wbbq .wpbd{
+    margin-top: 300px;
+    width: 1200px;
+    height: 80px;
+    background-color: #343434;
+    margin: 0 auto;
+}
+.wbbq .wpbd p{
+    line-height: 80px;
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+}

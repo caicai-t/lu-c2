@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.yexinw{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.yexin{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo-c {
+    float: left;
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+}
+.nav{
+    position: relative;
+    height: 80px;
+    width: 1200px;
+    background-color: transparent;
+    z-index: 2;
+}
+.nav-a ul li{
+    margin-left: 26px;
+    margin-top: 32px;
+    float: right;
+    font-size: 16px;
+}
+.nav-a ul li a{
+    color: gray;
+}
+.nav-a li .mro.active{
+    display: block;
+}
+.nav .nav-a  .line{
+    position: absolute;
+    display: none;
+    width: 63px;
+    height: 2px;
+    background-color: red;
+    bottom: 15px;
+}
+.nav-a li .line.active{
+    display: block;
+}
+.nav .nav-a  .mro{
+    position: absolute;
+    display: none;
+    width: 31.5px;
+    height: 2px;
+    background-color: red;
+    bottom: 15px;
+}
+.nav-a li:hover a{
+    color: red;
+}
+.nav-a li:hover .line{
+    display: block;
+}
+
+/* 导航栏结束 */
+
+
+
+/* 导航栏下背景 */
+.container{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    background: url(../img/lpa.png) no-repeat center;
+    top: -60px;
+    z-index: 1;
+    left: 0px;
+    background-size: cover;
+}
+
+/* 内容区域开始 */
+.lp-z{
+    width: 100%;
+    height: 100%;
+    background-color: #161616;
+}
+.lp-a{
+    width: 1200px;
+    height: 1230px;
+    margin: 0 auto;
+}
+.lp-k{
+    width: 1200px;
+    height: 460px;
+    background-color: orange;
+}
+.lp-bt{
+    width: 1200px;
+    height: 170px;
+
+    position: relative;
+}
+.lp-tp{
+    width: 1200px;
+    height: 500px;
+}
+
+.lp-bt .title span{
+    position: absolute;
+    display: block;
+    width: 137px;
+    height: 2px;
+    background-color:red;
+}
+.lp-bt .title .spana{
+    top: 120px;
+    left: 345px;
+}
+.lp-bt .title .spanb{
+    top: 120px;
+    right: 380px;
+}
+/* title旁边p */
+.lp-bt .title p{
+    font-size: 24px;
+    color:red;
+    position: absolute;
+    top: 105px;
+    text-align: center;
+    right: 570px
+}
+.lp-bt .title .title-a{
+    font-size: 14px;
+    color:gray;
+    position: absolute;
+    top: 140px;
+    text-align: center;
+    right: 590px
+}
+.lp-bt .bq-a{
+    float: left;
+    width: 1200px;
+    height: 120px;
+    margin-top: 210px;
+}
+.lp-bt .bq-a .bq{
+    width: 1200px;
+    height: 36px;
+}
+.lp-a .lp-tp .lp-tpa{
+    float: left;
+    width: 170px;
+    height: 500px;
+    background-color: red;
+}
+.lp-a .lp-tp .lp-tpa .lp-tpa-a{
+    text-align: center;
+    line-height: 245px;
+    float: left;
+    width: 170px;
+    height: 250px;
+    background-color: black;
+}
+.lp-a .lp-tp .lp-tpa .lp-tpa-a.c{
+    background-color: #222222;
+}
+.lp-a .lp-tp .lp-tpa .lp-tpa-a a{
+    display: block;
+    width: 170px;
+    height: 245px;
+    color: #8c8c8c;
+    font-size: 18px;
+}
+.lp-a .lp-tp .lp-tpa .lp-tpa-a img{
+    margin-left: 10px;
+    margin-top: 30px;
+    vertical-align: -4px;
+}
+.lp-tp .lp-tpa-a:hover a{
+    background-color: #7a1717;
+}
+.lp-tp .lp-tpb{
+    float: right;
+    width: 257.5px;
+    height: 500px;
+    background: url(../img/lpb.png);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 地址区域 */
+.dz{
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.dz .dzwz{
+    width: 1200px;
+    height: 400px;
+    background-color:black;
+    margin: 0 auto;
+}
+.dz .dza{
+    width: 180px;
+    height: 74px;
+    float: left;
+}
+.dz .dzwz .dzaa{
+    margin-top: 130px;
+    line-height: 3em;
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+}
+.dz .dzwz img{
+    margin-right: 10px;
+}
+.dz .dzwz .dzab p{
+    font-size: 14px;
+    color: gray;
+}
+.dz .dzwz .dzab{
+    margin-top: 130px;
+    width: 240px;
+    height: 90px;
+    float: left;
+    margin-left: 300px;
+}
+.dz .dzwz .dzabc{
+    margin-top: 130px;
+    float: right;
+    width: 182px;
+    height: 93px;
+}
+.dz .dzwz .dzabc p{
+    font-size: 14px;
+    color: gray;
+}
+
+
+/* 尾部区域 */
+.wbbq{
+    margin: 0 auto;
+    height: 100%px;
+    width: 100%px;
+    background-color: #343434;
+}
+.wbbq .wpbd{
+    margin-top: 300px;
+    width: 1200px;
+    height: 80px;
+    background-color: #343434;
+    margin: 0 auto;
+}
+.wbbq .wpbd p{
+    line-height: 80px;
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+}

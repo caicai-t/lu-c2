@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.yexinw{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.yexin{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo-c {
+    float: left;
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+}
+.nav{
+    position: relative;
+    height: 80px;
+    width: 1200px;
+    background-color: transparent;
+    z-index: 2;
+}
+.nav-a ul li{
+    margin-left: 26px;
+    margin-top: 32px;
+    float: right;
+    font-size: 16px;
+}
+.nav-a ul li a{
+    color: gray;
+}
+.nav-a li .mro.active{
+    display: block;
+}
+.nav .nav-a  .line{
+    position: absolute;
+    display: none;
+    width: 63px;
+    height: 2px;
+    background-color: red;
+    bottom: 15px;
+}
+.nav-a li .line.active{
+    display: block;
+}
+.nav .nav-a  .mro{
+    position: absolute;
+    display: none;
+    width: 31.5px;
+    height: 2px;
+    background-color: red;
+    bottom: 15px;
+}
+.nav-a li:hover a{
+    color: red;
+}
+.nav-a li:hover .line{
+    display: block;
+}
+
+/* 导航栏结束 */
+
+
+
+/* 导航栏下背景 */
+.container{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    background: url(../img/dja.png) no-repeat center;
+    background-size: cover;
+    z-index: 0;
+    top: 10px;
+}
+
+
+/* 内容开始 */
+.container-a{
+    position: relative;
+    margin-top: 200px;
+    float: left;
+    width: 1200px;
+    height: 273px;
+    left: 400px;
+}
+.container-a .title span{
+    position: absolute;
+    display: block;
+    width: 137px;
+    height: 1px;
+    background-color:red;
+}
+.container-a .title .spana{
+    top: 120px;
+    left: 230px;
+}
+.container-a .title .spanb{
+    top: 120px;
+    right: 330px;
+}
+.container-a .title p{
+    font-size: 24px;
+    color:red;
+    position: absolute;
+    top: 105px;
+    text-align: center;
+    right: 550px
+}
+.container-a .title .title-a{
+    font-size: 16px;
+    color:gray;
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    right: 640px;
+}
+.container-a .title .title-b{
+    font-size: 14px;
+    color:#fff;
+    position: absolute;
+    top: 180px;
+    text-align: center;
+    right: 360px
+}
+.container-a .bq-a{
+    float: left;
+    width: 1200px;
+    height: 120px;
+    margin-top: 210px;
+}
+.container-a .bq-a .bq{
+    width: 1200px;
+    height: 36px;
+}
+.nr-c{
+    width: 1200px;
+    height: 2000px;
+}
+.nr-a{
+    position: absolute;
+    margin: 0 auto;
+    width: 1100px;
+    height: 1534px;
+    top: 500px;
+    right: 390px;
+}
+.na-a{
+    margin-right: 30px;
+    float: left;
+    width: 513px;
+    height: 697px;
+    margin-bottom: 40px;
+}
+.na-a p{
+    text-align: center;
+    color: #fff;
+}
+.na-b{
+    width: 513px;
+    height: 420px;
+    background: url(../img/djb.png) no-repeat center;
+}
+.na-c{
+    width: 513px;
+    height: 77px;
+    background-color: #212121;
+    font-size: 16px;
+    line-height: 77px;
+}
+.na-d{
+    width: 513px;
+    height: 200px;
+    background-color: transparent;
+    font-size: 14px;
+}
+.na-d .na-d-p{
+    font-size: 36px;
+    line-height: 2em;
+}
+.na-d .na-d-pa{
+    margin-top: 19px;
+}
+.na-d .na-d-pa span{
+    color: red;
+}
+.na-a:hover .na-c{
+    background-color: #dd1717;
+}
+.na-a:hover .na-d{
+    background-color: #6f0c0c;
+}
+
+
+/* 地址区域 */
+.dz{
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 2000px;
+    width: 100%;
+    height: 220px;
+    background-color: black;
+}
+.dz .dzwz{
+    width: 1200px;
+    height: 220px;
+    background-color:black;
+    margin: 0 auto;
+}
+.dz .dza{
+    width: 180px;
+    height: 74px;
+    float: left;
+}
+.dz .dzwz .dzaa{
+    line-height: 3em;
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+}
+.dz .dzwz img{
+    margin-right: 10px;
+}
+.dz .dzwz .dzab p{
+    font-size: 14px;
+    color: gray;
+}
+.dz .dzwz .dzab{
+    width: 240px;
+    height: 90px;
+    float: left;
+    margin-left: 300px;
+}
+.dz .dzwz .dzabc{
+    float: right;
+    width: 182px;
+    height: 93px;
+}
+.dz .dzwz .dzabc p{
+    font-size: 14px;
+    color: gray;
+}
+
+
+/* 尾部区域 */
+.wbbq{
+    margin: 0 auto;
+    height: 100%px;
+    width: 100%px;
+    background-color: #343434;
+}
+.wbbq .wpbd{
+    margin-top: 300px;
+    width: 1200px;
+    height: 80px;
+    background-color: #343434;
+    margin: 0 auto;
+}
+.wbbq .wpbd p{
+    line-height: 80px;
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+}

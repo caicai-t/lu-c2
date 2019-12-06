@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.yexinw{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.yexin{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo-c {
+    float: left;
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+}
+.nav{
+    position: relative;
+    height: 80px;
+    width: 1200px;
+    background-color: transparent;
+    z-index: 2;
+}
+.nav-a ul li{
+    margin-left: 26px;
+    margin-top: 32px;
+    float: right;
+    font-size: 16px;
+}
+.nav-a ul li a{
+    color: gray;
+}
+.nav-a li .mro.active{
+    display: block;
+}
+.nav .nav-a  .line{
+    position: absolute;
+    display: none;
+    width: 63px;
+    height: 2px;
+    background-color: red;
+    bottom: 15px;
+}
+.nav-a li .line.active{
+    display: block;
+}
+.nav .nav-a  .mro{
+    position: absolute;
+    display: none;
+    width: 31.5px;
+    height: 2px;
+    background-color: red;
+    bottom: 15px;
+}
+.nav-a li:hover a{
+    color: red;
+}
+.nav-a li:hover .line{
+    display: block;
+}
+
+/* 导航栏结束 */
+
+
+
+/* 导航栏下背景 */
+.container{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    background: url(../img/ba.png) no-repeat center;
+    background-size: cover;
+    z-index: 0;
+    top: 10px;
+}
+/* 导航栏下内容区域 */
+.container-a{
+    margin-top: 492px;
+    position: relative;
+    width: 100%;
+    height: 1158px;
+    background-color: #161616;
+
+}
+/* <!-- 导航栏下内容 --> */
+.container-b{
+    position: relative;
+    width: 1200px;
+    height: 1158px;
+    margin: 0 auto;
+}
+/* title旁边span */
+.container-a .title span{
+    position: absolute;
+    display: block;
+    width: 137px;
+    height: 2px;
+    background-color:red;
+}
+.container-a .title .spana{
+    top: 120px;
+    left: 345px;
+}
+.container-a .title .spanb{
+    top: 120px;
+    right: 345px;
+}
+/* title旁边p */
+.container-a .title p{
+    font-size: 24px;
+    color:red;
+    position: absolute;
+    top: 105px;
+    text-align: center;
+    right: 570px
+}
+.container-a .title .title-a{
+    font-size: 14px;
+    color:gray;
+    position: absolute;
+    top: 140px;
+    text-align: center;
+    right: 590px
+}
+.container-a .bq-a{
+    float: left;
+    width: 1200px;
+    height: 120px;
+    margin-top: 210px;
+}
+.container-a .bq-a .bq{
+    width: 1200px;
+    height: 36px;
+}
+
+
+/* 标签部分 */
+.bq-a .bq .bq-b{
+    float: left;
+    width: 90px;
+    height: 34px;
+    border: 1px solid gray;
+    margin-right: 20px;
+    font-size: 16px;
+    color: gray;
+    background-color: black;
+    text-align: center;
+    line-height: 34px;
+}
+.bq-a .bq .bq-b.bq-c{
+    float: left;
+    width: 45px;
+    height: 34px;
+    border: 1px solid gray;
+    margin-left: 180px;
+}
+.bq-a span:hover a{
+    color: #ffffff;
+    
+}
+.bq-a .bq span:hover {
+    background-color: red;
+}
+
+/* 图片部分 */
+.bq-tp{
+    width: 1200px;
+   height: 600px;
+    float: left;
+}
+.bq-tp .bq-tpk{
+    width: 1200px;
+   height: 200px;
+    float: left;
+    margin-bottom: 10px;
+}
+.bq-tp .bq-tpk li{
+    float: left;
+    margin-left: 12px;
+}
+
+/* 图片下页码部分 */
+.bq-tpym{
+    float: left;
+    width: 1200px;
+    height: 200px;
+    margin-top: 20px;
+    position: relative;
+}
+.bq-tpym .tpym{
+    width: 330px;
+    height: 45px;
+    position: absolute;
+    right: 400px;
+    top: 100px;
+}
+.bq-tpym .tpym .spane{
+    float: left;
+    width: 23px;
+    height: 23px;
+    background-color: #161616;
+    text-align: center;
+    line-height: 23px;
+    margin-right: 20px;
+}
+.bq-tpym .tpym .spane a{
+    color: #ffff;
+}
+.bq-tpym .spane:hover a{
+    background-color: red;
+}
+.bq-tpym .tpym a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* 地址区域 */
+.dz{
+    width: 100%;
+    height: 220px;
+    background-color: #191919;
+}
+.dz .dzwz{
+    width: 1200px;
+    height: 220px;
+    background-color:#191919;
+    margin: 0 auto;
+}
+.dz .dza{
+    width: 180px;
+    height: 74px;
+    float: left;
+}
+.dz .dzwz .dzaa{
+    line-height: 3em;
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+}
+.dz .dzwz img{
+    margin-right: 10px;
+}
+.dz .dzwz .dzab p{
+    font-size: 14px;
+    color: gray;
+}
+.dz .dzwz .dzab{
+    width: 240px;
+    height: 90px;
+    float: left;
+    margin-left: 300px;
+}
+.dz .dzwz .dzabc{
+    float: right;
+    width: 182px;
+    height: 93px;
+}
+.dz .dzwz .dzabc p{
+    font-size: 14px;
+    color: gray;
+}
+
+
+/* 尾部区域 */
+.wbbq{
+    margin: 0 auto;
+    height: 100%px;
+    width: 100%px;
+    background-color: #343434;
+}
+.wbbq .wpbd{
+    margin-top: 300px;
+    width: 1200px;
+    height: 80px;
+    background-color: #343434;
+    margin: 0 auto;
+}
+.wbbq .wpbd p{
+    line-height: 80px;
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+}
